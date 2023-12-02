@@ -1,6 +1,6 @@
 PREFIX Key is Ctrl+z
+
 Config File : ~/.tmux.conf
-See config folder in this repo for the config and key bindings
 
 ## Open new tab
 PREFIX + c
