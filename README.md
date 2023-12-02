@@ -1,31 +1,28 @@
-# tmux.config
-
 PREFIX Key is Ctrl+z
 Config File : ~/.tmux.conf
 See config folder in this repo for the config and key bindings
 
 ## Open new tab
-<PREFIX> + c
+PREFIX + c
 
 ### Switch from one tab to the other
-<PREFIX> + <tab number>
+PREFIX + \<tab number\>
 
 ### Rename a Tab
-<PREFIX> + ,
+PREFIX + ,
 
 ### Split Pane vertically
-<PREFIX> + |
+PREFIX + |
 
 ### Split Pane Horizontally
-<PREFIX> + -
+PREFIX + -
 
 ### toggle Zoom on a pane
-<PREFIX> + z
+PREFIX + z
 
 ### Navigation between panes
 alt + arrow keys
 
-=== 
 
 ## Sessions
 
@@ -33,18 +30,16 @@ alt + arrow keys
 tmux ls
 
 ### Detach Session (from inside tmux)
-<PREFIX> + d
+PREFIX + d
 
 ### Resume session
-tmux attach -t <session name or number>
+tmux attach -t \<session name or number\>
 
 ### Rename an existing session
-tmux rename-session -t <number or old name> <name>
+tmux rename-session -t \<number or old name\> \<name\>
 
 ### Open tmux with a named session
-tmux new -s <name>
+tmux new -s \<name\>
 
 ### Killing sessions
-tmux kill-session -t <name or number>
-
-===
+tmux kill-session -t \<name or number\>
